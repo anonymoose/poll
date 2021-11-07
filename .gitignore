@@ -1,0 +1,17 @@
+venv/
+.idea
+.vscode
+out/
+.env*
+.env
+.#*
+.DS_Store
+coverage.out
+.vagrant
+*.log
+.terraform/
+.terraform*
+terraform.tfvars
+*.tfstate*
+*.tfstate
+workspace/
