@@ -53,8 +53,14 @@
             "destination": "/home/ubuntu/poll/requirements.txt"
         },
         {
+            "type": "file",
+            "source": "../rc.local",
+            "destination": "/etc/rc.local"
+        },
+        {
             "type": "shell",
             "inline": [
+                "sudo chmod +x /etc/rc.local",
                 "cd /home/ubuntu/poll",
                 "python3 -m venv venv",
                 "source venv/bin/activate",
